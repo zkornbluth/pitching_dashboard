@@ -2,7 +2,7 @@
 
 Use this to view statistics of 18 recent Cy Young winning pitchers.
 
-Check it out [here](https://zkornbluth.github.io/pitching_dashboard) or on [Tableau Public](https://public.tableau.com/app/profile/zachary.kornbluth/viz/PitchingDashboard_17555271259050/Dashboard1_1).
+Check it out [here](https://zkornbluth.github.io/pitching_dashboard) or on [Tableau Public](https://public.tableau.com/views/PitchingDashboard_17555271259050/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ## Data Source
 
