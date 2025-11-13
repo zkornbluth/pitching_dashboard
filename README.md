@@ -1,14 +1,14 @@
 # Cy Young Pitching Dashboard
 
-Use this to view statistics of 32 recent top pitchers.
+Use this to view statistics of 35 recent top pitchers.
 
 Check it out [here](https://zkornbluth.github.io/pitching_dashboard) or on [Tableau Public](https://public.tableau.com/views/PitchingDashboard_17555271259050/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ## Data Source
 
-I obtained this data from [pybaseball](https://github.com/jldbc/pybaseball). Using the script `gather_data.py`, I collected every pitch thrown by the 32 pitchers between 2016 (the first year Statcast has complete data) and 2024.
+I obtained this data from [pybaseball](https://github.com/jldbc/pybaseball). Using the script `gather_data.py`, I collected every pitch thrown by the 35 pitchers between 2016 (the first year Statcast has complete data) and 2025.
 
-The 32 pitchers are Cy Young Award winners Blake Snell, Chris Sale, Clayton Kershaw, Corbin Burnes, Corey Kluber, Dallas Keuchel, David Price, Félix Hernández, Gerrit Cole, Jacob deGrom, Jake Arrieta, Justin Verlander, Max Scherzer, Rick Porcello, Robbie Ray, Sandy Alcantara, Shane Bieber, Tarik Skubal, Trevor Bauer, and Zack Greinke, and runners up Adam Wainwright, Dylan Cease, Hyun Jin Ryu, Johnny Cueto, Jon Lester, Kenta Maeda, Logan Webb, Max Fried, Seth Lugo, Sonny Gray, Yu Darvish, and Zack Wheeler.
+The 35 pitchers are Cy Young Award winners Blake Snell, Chris Sale, Clayton Kershaw, Corbin Burnes, Corey Kluber, Dallas Keuchel, David Price, Félix Hernández, Gerrit Cole, Jacob deGrom, Jake Arrieta, Justin Verlander, Max Scherzer, Paul Skenes, Rick Porcello, Robbie Ray, Sandy Alcantara, Shane Bieber, Tarik Skubal, Trevor Bauer, and Zack Greinke, and runners up Adam Wainwright, Cristopher Sánchez, Dylan Cease, Garrett Crochet, Hyun Jin Ryu, Johnny Cueto, Jon Lester, Kenta Maeda, Logan Webb, Max Fried, Seth Lugo, Sonny Gray, Yu Darvish, and Zack Wheeler.
 
 ## Features
 <img width="1470" height="801" alt="Screenshot 2025-08-21 at 1 27 12 PM" src="https://github.com/user-attachments/assets/fcbe4cbb-7738-44a5-8742-ae64c94a34e5" />
