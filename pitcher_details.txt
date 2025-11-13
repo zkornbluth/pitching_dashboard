@@ -1,5 +1,5 @@
 Player Name|Details
-Tarik Skubal|Cy Young Winner
+Tarik Skubal|2x Cy Young Winner
 Chris Sale|Cy Young Winner
 Gerrit Cole|Cy Young Winner
 Blake Snell|2x Cy Young Winner
@@ -31,3 +31,6 @@ Zack Greinke|Cy Young Winner
 Félix Hernández|Cy Young Winner
 Johnny Cueto|Cy Young Runner Up
 Adam Wainwright|2x Cy Young Runner Up
+Paul Skenes|Cy Young Winner
+Cristopher Sánchez|Cy Young Runner Up
+Garrett Crochet|Cy Young Runner Up

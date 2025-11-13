@@ -1,6 +1,8 @@
-"""
-This file was run to gather the data in the .csv file that will be used on the dashboard.
-"""
+'''
+Filename: gather_data.py
+Author: Zachary Kornbluth <github.com/zkornbluth>
+Description: Gather the data in the .csv file that is used on the dashboard.
+'''
 
 from pybaseball import playerid_lookup, statcast_pitcher
 import pandas as pd
@@ -11,7 +13,7 @@ players_list = ["Tarik Skubal", "Chris Sale", "Gerrit Cole", "Blake Snell", "Jus
                 "Max Scherzer", "Rick Porcello", "Dallas Keuchel", "Jake Arrieta", "Clayton Kershaw", "David Price",
                 "Seth Lugo", "Zack Wheeler", "Sonny Gray", "Logan Webb", "Dylan Cease", "Max Fried", "Kenta Maeda",
                 "Yu Darvish", "Hyun Jin Ryu", "Jon Lester", "Zack Greinke", "Félix Hernández", "Johnny Cueto",
-                "Adam Wainwright"]
+                "Adam Wainwright", "Paul Skenes", "Cristopher Sánchez", "Garrett Crochet"]
 
 all_player_stats = []
 
@@ -26,7 +28,7 @@ for player_name in players_list:
     
     mlbam_key = player_ids['key_mlbam'][0]
 
-    player_stats = statcast_pitcher('2016-03-01', '2024-11-01', int(mlbam_key)) # Start in 2016 when statcast was everywhere, through end of 2024 playoffs
+    player_stats = statcast_pitcher('2016-03-01', '2025-11-03', int(mlbam_key)) # Start in 2016 when statcast was everywhere, through end of 2025 playoffs
     player_stats = player_stats[player_stats['game_type'].isin(['R', 'P', 'F', 'D', 'L', 'W'])] # Filter out S (spring training) and E (exhibition)
 
     player_stats['pitch_type'] = player_stats['pitch_type'].replace('FA', 'FF') # Both codings mean four-seam fastball
